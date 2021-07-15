@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965407452185",
+    "project_id": "extended-poetry-318717",
+    "storage_bucket": "extended-poetry-318717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965407452185:android:6c217be1ba47560421ce88",
+        "android_client_info": {
+          "package_name": "com.example.atividade_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965407452185-kvcedilvdlc1n0rq32hs23qrbgg5fpkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOoVZVjBEsDTvDSTLejj78FvYnp93NFV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965407452185-kvcedilvdlc1n0rq32hs23qrbgg5fpkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

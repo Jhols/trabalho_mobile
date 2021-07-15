@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Atividade_Mobile</string>
+    <string name="menu"> Menu de Atividades </string>
+    <string name="txt1"> Nome: </string>
+    <string name="txt2"> Clique em OK </string>
+    <string name="nome_pessoa"> João Pedro </string>
+    <string name="msg1"> Botão Clicado </string>
+    <string name="ok">Ok</string>
+    <string name="salvar">Salvar</string>
+    <string name="msg_salvo_sucesso">Salvo com sucesso!</string>
+    <string name="abrir_camera">Abrir Câmera</string>
+    <string name="lati_longi">Latitude and Longitude</string>
+    <string name="title_activity_exercicio_g_p_s">Map</string>
+    <string name="recycle_view">Recycle View</string>
+    <string name="firebase_analytics">Firebase Analytics</string>
+    <string name="imagem">imagem</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="action_new">Nova Disciplina</string>
+    <string name="action_settings">Configurações</string>
+    <string name="disciplinas_faculdade">Disciplinas Faculdade</string>
+    <string name="adicionar_disciplina">Adicionar Disciplina</string>
+    <string name="action_update">Editar</string>
+    <string name="action_delete">Apagar</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atividade_Mobile</string>
+    <string name="txt1"> Nombre: </string>
+    <string name="txt2"> Clica en el ok </string>
+    <string name="nome_pessoa"> Juan Pedro </string>
+    <string name="msg1"> Butón Clicado </string>
+    <string name="menu">Menu de Ejercicios</string>
+    <string name="ok">Ok</string>
+    <string name="salvar">Guardar</string>
+    <string name="msg_salvo_sucesso">Guardado con éxito!</string>
+    <string name="abrir_camera">Abrir la cámara</string>
+    <string name="lati_longi">Latitud y Longitud</string>
+    <string name="imagem">figura</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="action_new">Nueva Disciplina</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="disciplinas_faculdade">Disciplinas Universidad</string>
+    <string name="adicionar_disciplina">Agregar Disciplina</string>
+    <string name="action_update">Editar</string>
+    <string name="action_delete">Eliminar</string>
+</resources>
