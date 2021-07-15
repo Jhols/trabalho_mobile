@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">My Life Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="habitos">Hábitos</string>
+    <string name="objetivos">Objetivos</string>
+    <string name="title_activity_criar_habito">CriarHabito</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="titulo_habito">Título do Hábito</string>
+    <string name="titulo_tarefa">Título da Tarefa</string>
+    <string name="nova_tarefa">Nova Tarefa</string>
+    <string name="categoria">Categoria</string>
+    <string name="data">Data</string>
+    <string name="prioridade">Prioridade</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="data_conclusao">Data de Conclusão</string>
+    <string name="tarefa">Tarefa</string>
+    <string name="tarefas">Tarefas</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="concluido">Concluído</string>
+
+    <string-array name="str_arr_categoria">
+        <item>Saúde</item>
+        <item>Trabalho</item>
+        <item>Compras</item>
+        <item>Pagamentos</item>
+        <item>Limpeza</item>
+        <item>Lazer</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="str_arr_prioridade">
+        <item>Baixa</item>
+        <item>Média</item>
+        <item>Alta</item>
+    </string-array>
+
+    <string name="insira_titulo_tarefa">Por favor, insira um título para a tarefa!</string>
+    <string name="selecione_categoria">Selecione uma categoria:</string>
+</resources>
