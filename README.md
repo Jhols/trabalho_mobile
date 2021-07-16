@@ -25,10 +25,10 @@ para você se preocupar menos e executar mais!</p>
 <img src="Documentacao/Diagramas/Diagrama de Atividades.jpeg" />
 
 <h3> Protótipo de Baixa Fidelidade </h3>
-<img src="Documentacao/Prototipos/Baixa Fidelidade.jpeg" />
+<img src="Documentacao/Prototipos/Baixa Fidelidade.png" />
 
 <h3> Protótipo de Alta Fidelidade </h3>
-<img src="Documentacao/Prototipos/AltaF_NovaTarefa.jpeg" />
-<img src="Documentacao/Prototipos/AltaF_Maps.jpeg" />
-<img src="Documentacao/Prototipos/AltaF_Listapg.jpeg" />
-<img src="Documentacao/Prototipos/AltaF_TelaItem.jpeg" />
+<img src="Documentacao/Prototipos/AltaF_NovaTarefa.jpg" />
+<img src="Documentacao/Prototipos/AltaF_Maps.jpg" />
+<img src="Documentacao/Prototipos/AltaF_Listapg.jpg" />
+<img src="Documentacao/Prototipos/AltaF_TelaItem.jpg" />
