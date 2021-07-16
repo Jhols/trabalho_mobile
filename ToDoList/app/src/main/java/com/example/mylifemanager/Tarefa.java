@@ -7,6 +7,7 @@ public class Tarefa {
     private int id;
     private String titulo;
     private String categoria, prioridade;
+    private String localizacao;
     private Date prazo;
     private boolean feito;
 
@@ -65,5 +66,13 @@ public class Tarefa {
 
     public void setPrazo(Date prazo) {
         this.prazo = prazo;
+    }
+
+    public String getLocalizacao() {
+        return localizacao;
+    }
+
+    public void setLocalizacao(String localizacao) {
+        this.localizacao = localizacao;
     }
 }

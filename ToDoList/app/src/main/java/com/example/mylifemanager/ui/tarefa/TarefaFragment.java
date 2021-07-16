@@ -59,7 +59,8 @@ public class TarefaFragment extends Fragment {
         concluidasRecyclerView.setLayoutManager(layoutManager2);
         */
         //Obtem a lista de tarefas a ser apresentada
-        tarefas = TarefaDAO.getInstance().getListaTarefas(getActivity(), TarefaDAO.CHAVE_LISTA_A_FAZER);
+        //tarefas = TarefaDAO.getInstance().getListaTarefas(getActivity(), TarefaDAO.CHAVE_LISTA_A_FAZER);
+        tarefas = TarefaDAO.getInstance(getActivity()).getListaTarefas();
        // concluidas = TarefaDAO.getInstance().getListaTarefas(getActivity(), TarefaDAO.CHAVE_LISTA_CONCLUIDAS);
 
         //Adiciona as tarefas na lista do recycler view
@@ -86,11 +87,11 @@ public class TarefaFragment extends Fragment {
             int fromPosition = viewHolder.getAdapterPosition();
             int toPosition = target.getAdapterPosition();
 
-            tarefas = TarefaDAO.getInstance().getListaTarefas(getActivity(), TarefaDAO.CHAVE_LISTA_A_FAZER);
+            tarefas = TarefaDAO.getInstance(getActivity()).getListaTarefas();
 
             Collections.swap(tarefas, fromPosition, toPosition);
 
-            TarefaDAO.getInstance().setListaTarefas(getActivity(), tarefas, TarefaDAO.CHAVE_LISTA_A_FAZER);
+            TarefaDAO.getInstance(getActivity()).setListaTarefas(tarefas);
 
             recyclerView.getAdapter().notifyItemMoved(fromPosition, toPosition);
 

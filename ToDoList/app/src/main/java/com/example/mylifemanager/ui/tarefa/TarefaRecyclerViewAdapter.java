@@ -48,11 +48,11 @@ public class TarefaRecyclerViewAdapter extends RecyclerView.Adapter<TarefaRecycl
                     if (checkItem.isChecked()) { //Faz a marcacao da tarefa ao clicar no checkbox
                         txtItemLista.setPaintFlags(txtItemLista.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
 
-                        TarefaDAO.getInstance().setFeito(itemView.getContext(), TarefaDAO.CHAVE_LISTA_A_FAZER, id, true);
+                        TarefaDAO.getInstance(itemView.getContext()).setFeito(id, true);
                     }
                     else { //Senao, retira a marcacao
                         txtItemLista.setPaintFlags(txtItemLista.getPaintFlags() & (~Paint.STRIKE_THRU_TEXT_FLAG));
-                        TarefaDAO.getInstance().setFeito(itemView.getContext(), TarefaDAO.CHAVE_LISTA_A_FAZER, id, false);
+                        TarefaDAO.getInstance(itemView.getContext()).setFeito(id, false);
                     }
                 }
             });

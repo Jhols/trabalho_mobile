@@ -8,6 +8,8 @@ import android.widget.Button;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -22,6 +24,7 @@ import java.util.zip.Inflater;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +59,13 @@ public class MainActivity extends AppCompatActivity {
                 navController.navigate(R.id.nav_criarTarefaFragment);
             }
         });
+
+        FirebaseApp.initializeApp(this);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
+        Bundle bundle = new Bundle();
+        bundle.putString(FirebaseAnalytics.Param.METHOD, "onCreate");
+        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.LOGIN, bundle);
     }
 
     @Override

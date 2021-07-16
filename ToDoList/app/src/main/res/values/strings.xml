@@ -60,4 +60,5 @@
 
     <string name="insira_titulo_tarefa">Por favor, insira um título para a tarefa!</string>
     <string name="selecione_categoria">Selecione uma categoria:</string>
+    <string name="localizacao">Localização</string>
 </resources>
