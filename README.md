@@ -35,10 +35,19 @@ para você se preocupar menos e executar mais!</p>
 
 <h3> Aplicativos Correlatos </h3>
 <img src="Documentacao/Aplicativos Correlatos/microsoft_todo.jpg" />
+<p>Downloads: + 10 milhões na PlayStore</p>
+<p>Avaliações: Até o momento, 174mil, c/ 4,6 de nota</p>
 <img src="Documentacao/Aplicativos Correlatos/todoist.jpg" />
+<p>Downloads: + 10 milhões na PlayStore</p>
+<p>Avaliações: Até o momento, 227mil, c/ 4,5 de nota</p>
 <img src="Documentacao/Aplicativos Correlatos/anydo.jpg" />
+<p>Downloads: + 10 milhões na PlayStore</p>
+<p>Avaliações: Até o momento, 384mil, c/ 4,5 de nota</p>
 <img src="Documentacao/Aplicativos Correlatos/googlekeep.jpg" />
+<p>Downloads: + 1 bilhão na PlayStore</p>
+<p>Avaliações: Até o momento, mais de 1 milhão, c/ 4,3 de nota</p>
 
+<h3> Conceitos utilizados no projeto </h3>
 <table>
 <thead>
 <tr><td>Nivelamento</td><td>Status</td></tr>
