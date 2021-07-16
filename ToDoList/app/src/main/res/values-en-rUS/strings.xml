@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Life Manager</string>
+    <string name="titulo_tarefa">Task Title</string>
+    <string name="nova_tarefa">New Task</string>
+    <string name="categoria">Category</string>
+    <string name="data">Date</string>
+    <string name="prioridade">Priority</string>
+    <string name="data_conclusao">Conclusion Date</string>
+    <string name="tarefa">Task</string>
+    <string name="tarefas">Tasks</string>
+    <string name="cancelar">Cancel</string>
+    <string name="concluido">Done</string>
+    <string name="insira_titulo_tarefa">Please, insert a title for the task</string>
+    <string name="selecione_categoria">Select a category</string>
+    <string name="localizacao">Localization</string>
+</resources>
