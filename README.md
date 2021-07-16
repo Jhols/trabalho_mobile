@@ -32,3 +32,41 @@ para você se preocupar menos e executar mais!</p>
 <img src="Documentacao/Prototipos/AltaF_Maps.jpg" />
 <img src="Documentacao/Prototipos/AltaF_Listapg.jpg" />
 <img src="Documentacao/Prototipos/AltaF_TelaItem.jpg" />
+
+<h3> Aplicativos Correlatos </h3>
+<img src="Documentacao/Aplicativos Correlatos/microsoft_todo.jpg" />
+<img src="Documentacao/Aplicativos Correlatos/todoist.jpg" />
+<img src="Documentacao/Aplicativos Correlatos/anydo.jpg" />
+<img src="Documentacao/Aplicativos Correlatos/googlekeep.jpg" />
+
+<table>
+<thead>
+<tr><td>Nivelamento</td><td>Status</td></tr>
+</thead>
+<tbody>
+<tr>
+ <td>Preferências</td>
+ <td>OK</td>
+</tr>
+<tr>
+ <td>Permissão</td>
+ <td>OK</td>
+</tr>
+<tr>
+ <td>Internacionalização</td>
+ <td>OK</td>
+</tr>
+<tr>
+ <td>Persistência em SQLite</td>
+ <td>OK</td>
+</tr>
+<tr>
+ <td>Google Analytic</td>
+ <td>OK</td>
+</tr>
+<tr>
+ <td>Comunicação com Servidor (JSON)</td>
+ <td>Pendente</td>
+</tr>
+</tbody>
+</table>
