@@ -9,3 +9,5 @@ para você se preocupar menos e executar mais!</p>
 <h3> Story Board </h3>
 <img src="Documentacao/Storyboard/storyboard-app-highres.png" />
 
+<h3> Lista de Requisitos </h3>
+<img src="Documentacao/Requisitos/Lista de Requisitos.jpg" />
